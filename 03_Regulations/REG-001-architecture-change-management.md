@@ -4,8 +4,8 @@
 | ----------- | --------------------------------------- |
 | ID          | REG-001                                 |
 | Status      | Approved                                |
-| Version     | 1.0                                     |
-| Date        | 2026-06-22                              |
+| Version     | 1.1                                     |
+| Date        | 2026-06-23                              |
 | Author      | Digital Solutions Function              |
 | Approved by | Head of Information Systems Development |
 | Authority   | DOC-001                                 |
@@ -36,8 +36,8 @@ This process does not apply to:
 | Role                                    | Responsibility in this process                                                                             |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Proposer                                | Any party within scope who identifies a needed change to a governance artifact and prepares the submission |
-| Digital Solutions Function              | Reviews submissions, decides on approval, and implements approved changes in the repository                |
-| Head of Information Systems Development | Escalation authority when a decision cannot be reached                                                     |
+| Digital Solutions Function              | Reviews all submissions; approves Minor Amendments; forwards other types to Head of ISD; implements        |
+| Head of Information Systems Development | Approves New, Major Revision, Supersession, and Withdrawal; escalation authority for Minor Amendments      |
 
 ## Inputs
 
@@ -92,9 +92,19 @@ The Digital Solutions Function reviews the submission for:
 
 ### 5. Decision
 
-The Digital Solutions Function approves the submission or returns it to the Proposer with documented reasons for revision.
+The approval authority depends on the change type:
 
-Returned submissions restart at Step 2 upon resubmission.
+| Change Type     | Approval Authority                                                                                             |
+| --------------- | -------------------------------------------------------------------------------------------------------------- |
+| Minor Amendment | Digital Solutions Function                                                                                     |
+| New             | Head of Information Systems Development, following review and recommendation by the Digital Solutions Function |
+| Major Revision  | Head of Information Systems Development, following review and recommendation by the Digital Solutions Function |
+| Supersession    | Head of Information Systems Development, following review and recommendation by the Digital Solutions Function |
+| Withdrawal      | Head of Information Systems Development, following review and recommendation by the Digital Solutions Function |
+
+The Digital Solutions Function reviews all submissions. For Minor Amendment submissions, the Digital Solutions Function approves or returns the submission directly. For all other change types, the Digital Solutions Function transmits its review finding and recommendation to the Head of Information Systems Development, who formally approves or returns the submission.
+
+Returned submissions include documented reasons for return. Returned submissions restart at Step 2 upon resubmission.
 
 ### 6. Implementation
 
@@ -106,9 +116,9 @@ The Digital Solutions Function commits the approved change to the repository acc
 | Minor Amendment | Revised artifact committed                                                                  | Minor version increment (e.g. 1.0 → 1.1) |
 | Major Revision  | Revised artifact committed                                                                  | Major version increment (e.g. 1.0 → 2.0) |
 | Supersession    | New ADR committed; original ADR updated to Status: Superseded with reference to new ADR     | ADRs are not versioned                   |
-| Withdrawal      | Artifact moved to 99_Archive/ with suffix _ARCHIVED-YYYY-MM-DD; Status updated to Withdrawn | No version change                        |
+| Withdrawal      | Artifact moved to 99_Archive/ with suffix \_ARCHIVED-YYYY-MM-DD; Status updated to Withdrawn | No version change                        |
 
-**Versioning Rules**
+### Versioning Rules
 
 * ADRs are not versioned.
 * A change to an ADR always produces a new superseding ADR.
@@ -127,7 +137,7 @@ The Digital Solutions Function commits the approved change to the repository acc
 
 ## Escalation Rules
 
-* If the Digital Solutions Function is unable to reach a decision on a submission, the matter is escalated to the Head of Information Systems Development.
+* If the Digital Solutions Function is unable to reach a decision on a Minor Amendment submission, the matter is escalated to the Head of Information Systems Development.
 * The Head of Information Systems Development's decision is final and binding.
 * All escalation decisions shall be documented in the affected governance artifact or associated change record.
 
@@ -136,3 +146,4 @@ The Digital Solutions Function commits the approved change to the repository acc
 * DOC-001 — Corporate Architecture and Architecture Governance Policy
 * ADR-0011 — Architecture Governance Framework v1.0
 * REG-002 — Architecture Exception Management
+* REG-003 — Architecture Dispute Management

@@ -4,8 +4,8 @@
 |-------------|----------------------------|
 | ID          | DOC-001                    |
 | Status      | Approved                   |
-| Version     | 1.0                        |
-| Date        | 2026-06-22                 |
+| Version     | 1.1                        |
+| Date        | 2026-06-23                 |
 | Author      | Digital Solutions Function |
 | Approved by | Head of Information Systems Development |
 | Authority   | ADR-0011                   |
@@ -132,3 +132,15 @@ whichever occurs first.
 | Review Cycle | Semi-Annual |
 | Next Review Date | 2026-12-22 |
 | Review Authority | Digital Solutions Function |
+
+## Related Documents
+
+* ADR-0011 — Architecture Governance Framework v1.0
+* DOC-002 — Digital Solutions Function Charter
+* REG-001 — Architecture Change Management
+* REG-002 — Architecture Exception Management
+* REG-003 — Architecture Dispute Management
+* GLO-001 — Architecturally Significant
+* GLO-002 — Governance Artifact
+* GLO-003 — Supersession
+* GLO-004 — Authority Hierarchy

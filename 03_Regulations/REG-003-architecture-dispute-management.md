@@ -4,8 +4,8 @@
 | ----------- | --------------------------------------- |
 | ID          | REG-003                                 |
 | Status      | Approved                                |
-| Version     | 1.0                                     |
-| Date        | 2026-06-22                              |
+| Version     | 1.1                                     |
+| Date        | 2026-06-23                              |
 | Author      | Digital Solutions Function              |
 | Approved by | Head of Information Systems Development |
 | Authority   | DOC-001                                 |
@@ -81,6 +81,8 @@ The Digital Solutions Function issues one of the following determinations:
 * Governance conflict identified requiring change under REG-001
 
 The determination shall be documented.
+
+Where the dispute concerns a decision made by the Digital Solutions Function itself, the Determination issued under this step is advisory. Either party may proceed directly to escalation under Step 4 without awaiting the Determination.
 
 ### 4. Escalation
 

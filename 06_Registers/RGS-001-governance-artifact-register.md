@@ -24,11 +24,11 @@ that are non-authoritative but form part of the operational framework.
 | ID       | Type | Title                                                     | Version | Effective Date | Status   |
 |----------|------|-----------------------------------------------------------|---------|----------------|----------|
 | ADR-0011 | ADR  | Architecture Governance Framework v1.0                    | N/A     | 2026-06-22     | Approved |
-| DOC-001  | DOC  | Corporate Architecture and Architecture Governance Policy | 1.0     | 2026-06-22     | Approved |
-| DOC-002  | DOC  | Digital Solutions Function Charter                        | 1.0     | 2026-06-22     | Approved |
-| REG-001  | REG  | Architecture Change Management                            | 1.0     | 2026-06-22     | Approved |
+| DOC-001  | DOC  | Corporate Architecture and Architecture Governance Policy | 1.1     | 2026-06-23     | Approved |
+| DOC-002  | DOC  | Digital Solutions Function Charter                        | 1.1     | 2026-06-23     | Approved |
+| REG-001  | REG  | Architecture Change Management                            | 1.1     | 2026-06-23     | Approved |
 | REG-002  | REG  | Architecture Exception Management                         | 1.0     | 2026-06-22     | Approved |
-| REG-003  | REG  | Architecture Dispute Management                           | 1.0     | 2026-06-22     | Approved |
+| REG-003  | REG  | Architecture Dispute Management                           | 1.1     | 2026-06-23     | Approved |
 | GLO-001  | GLO  | Architecturally Significant                               | N/A     | 2026-06-22     | Approved |
 | GLO-002  | GLO  | Governance Artifact                                       | N/A     | 2026-06-22     | Approved |
 | GLO-003  | GLO  | Supersession                                              | N/A     | 2026-06-22     | Approved |
@@ -37,7 +37,7 @@ that are non-authoritative but form part of the operational framework.
 | TPL-DOC  | TPL  | Policy and Charter Template                               | N/A     | 2026-06-22     | Approved |
 | TPL-REG  | TPL  | Governance Procedure Template                             | N/A     | 2026-06-22     | Approved |
 | TPL-STD  | TPL  | Standard Template                                         | N/A     | 2026-06-22     | Approved |
-| RGS-001  | RGS  | Governance Artifact Register                              | N/A     | 2026-06-23     | Approved |
+| RGS-001  | RGS  | Framework Artifact Register                               | N/A     | 2026-06-23     | Approved |
 
 ## Versioning Note
 

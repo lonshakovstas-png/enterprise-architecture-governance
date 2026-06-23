@@ -4,8 +4,8 @@
 | ----------- | --------------------------------------- |
 | ID          | DOC-002                                 |
 | Status      | Approved                                |
-| Version     | 1.0                                     |
-| Date        | 2026-06-22                              |
+| Version     | 1.1                                     |
+| Date        | 2026-06-23                              |
 | Author      | Digital Solutions Function              |
 | Approved by | Head of Information Systems Development |
 | Authority   | DOC-001                                 |
@@ -97,3 +97,12 @@ This charter shall be reviewed semi-annually from its approval date, or upon any
 | Review cycle     | Semi-Annual                             |
 | Next review date | 2026-12-22                              |
 | Review authority | Head of Information Systems Development |
+
+## Related Documents
+
+* ADR-0011 — Architecture Governance Framework v1.0
+* DOC-001 — Corporate Architecture and Architecture Governance Policy
+* REG-001 — Architecture Change Management
+* REG-002 — Architecture Exception Management
+* REG-003 — Architecture Dispute Management
+* RGS-001 — Framework Artifact Register
