@@ -13,7 +13,7 @@ All 15 artifacts are imported, reviewed, and approved.
 
 ### Added — Commit 5: Register
 
-- `RGS-001` — Governance Artifact Register: registers all 15 baseline artifacts.
+- `RGS-001` — Framework Artifact Register: registers all 15 baseline artifacts (governance and supporting).
 
 ### Added — Commit 4: Glossary and Templates
 

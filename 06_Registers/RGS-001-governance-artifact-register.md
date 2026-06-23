@@ -1,4 +1,4 @@
-# RGS-001: Governance Artifact Register
+# RGS-001: Framework Artifact Register
 
 | Field         | Value                                   |
 |---------------|-----------------------------------------|
@@ -14,6 +14,10 @@
 This register records all artifacts maintained within the Enterprise Architecture
 Governance Framework baseline. It serves as the single authoritative inventory of
 the framework's artifact set.
+
+The register includes both governance artifacts — ADR, DOC, REG, and STD documents
+that satisfy the conditions of GLO-002 — and supporting artifacts (GLO, TPL, RGS)
+that are non-authoritative but form part of the operational framework.
 
 ## Register
 
